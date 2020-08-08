@@ -42,7 +42,7 @@ public class DbConnector {
 	private final String comma  = ",", single="'", where = " WHERE ";
 
 	public boolean logincheck(String user,String password , String urls ,
-			String table,String text,int version) {
+			String table,String text,byte version) {
 		try {
 			//取得したデータはここで代入される
 			tablename = table;

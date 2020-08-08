@@ -130,7 +130,7 @@ public final class Login_Screen extends JFrame {
 	 * 入力された値をDbConnectorに値を持っていきます*/
 	boolean login() {
 		Model model = new Model();
-		int version=0 ;
+		byte version=0 ;
 		String text = null ;
 
 		if(mysqlold.isSelected()) {

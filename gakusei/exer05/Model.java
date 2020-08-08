@@ -86,6 +86,6 @@ public class Model {
 	}
 
 	/**ログインメソッド*/
-	public boolean Loginmodel(String username, String password, String driver, String table, String text, int version) {
+	public boolean Loginmodel(String username, String password, String driver, String table, String text, byte version) {
     return db.logincheck(username, password, driver, table, text, version);}
 }

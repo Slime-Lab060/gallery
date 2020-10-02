@@ -4,5 +4,5 @@
 今後の参考として残しておきます。  
  
 # ライセンス
-BSL-1.0 License
+BSL-1.0 License  
 &#169;2020, Slime Lab

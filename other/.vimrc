@@ -11,7 +11,7 @@ if !filereadable(expand('~/.vim/autoload/plug.vim'))
     let g:not_finish_vimplug = "yes"
     autocmd VimEnter * PlugInstall
     autocmd VimEnter * q!
-    autocmd VimEnter * CocInstall coc-java coc-json
+    "autocmd VimEnter * CocInstall coc-java coc-json
 endif
 
 " plugin

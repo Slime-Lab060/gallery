@@ -314,15 +314,15 @@ nnoremap <silent>sf :<C-u>Defx -listed -resume
         \`expand('%:p:h')` -search=`expand('%:p')`<CR>
 nnoremap <silent>fi :<C-u>Defx -new `expand('%:p:h')` -search=`expand('%:p')`<CR>
 
-call defx#custom#option('_', {
-      \ 'winwidth': 40,
-      \ 'split': 'vertical',
-      \ 'direction': 'topleft',
-      \ 'show_ignored_files': 1,
-      \ 'buffer_name': 'exlorer',
-      \ 'toggle': 1,
-      \ 'resume': 1,
-      \ })
+"call defx#custom#option('_', {
+"     \ 'winwidth': 40,
+"     \ 'split': 'vertical',
+"     \ 'direction': 'topleft',
+"     \ 'show_ignored_files': 1,
+"     \ 'buffer_name': 'exlorer',
+"     \ 'toggle': 1,
+"     \ 'resume': 1,
+"     \ })
 
         "defx KEYBIND
         autocmd FileType defx call s:defx_my_settings()

@@ -10,7 +10,6 @@ if !filereadable(expand('~/.vim/autoload/plug.vim'))
      silent !\curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
     let g:not_finish_vimplug = "yes"
     autocmd VimEnter * PlugInstall
-    autocmd VimEnter * q!
     "autocmd VimEnter * CocInstall coc-java coc-json
 endif
 

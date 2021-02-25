@@ -1,5 +1,6 @@
 
 "vim-plug install check
+"Version 1.2.2
 if !filereadable(expand('~/.vim/autoload/plug.vim'))
     if !executable("curl")
         echoerr "You have to install curl or first install vim-plug yourself!"
@@ -76,9 +77,9 @@ let mapleader="\<Space>"
 
 " auto-format
 "au BufWrite * :Autoformat
-let g:autoformat_autoindent  =  0
-let g:autoformat_retab  =  0
-let g:autoformat_remove_trailing_spaces  =  0
+"let g:autoformat_autoindent  =  0
+"let g:autoformat_retab  =  0
+"let g:autoformat_remove_trailing_spaces  =  0
 
 "alesetting
 let g:ale_lint_on_enter = 0
@@ -120,7 +121,7 @@ nmap <Tab> <Plug>AirlineSelectNextTab
 let g:airline#extensions#tabline#buffer_idx_mode = 1
 let g:airline#extensions#virtualenv#enabled = 1
 
-let g:airline_theme = 'murmur'
+let g:airline_theme = 'papercolor'
 let g:airline#extensions#syntastic#enabled = 1
 let g:airline#extensions#branch#enabled = 1
 let g:airline#extensions#tabline#enabled = 1
@@ -139,13 +140,13 @@ let g:airline_left_alt_sep = '>'
 let g:airline_right_sep = '<'
 let g:airline_right_alt_sep = '<'
 " let g:airline_symbols.crypt = '🔒'
-" let g:airline_symbols.linenr = '¶'
+ let g:airline_symbols.linenr = '¶'
 " let g:airline_symbols.maxlinenr = '㏑'
 " let g:airline_symbols.branch = '⭠'
-" let g:airline_symbols.paste = 'ρ'
+ let g:airline_symbols.paste = 'ρ'
 " let g:airline_symbols.spell = 'Ꞩ'
 " let g:airline_symbols.notexists = '∄'
-" let g:airline_symbols.whitespace = 'Ξ'
+ let g:airline_symbols.whitespace = 'Ξ'
 
 
 " The PC is fast enough, do syntax highlight syncing from start unless 200 lines
@@ -208,7 +209,7 @@ nnoremap sh <C-w>h
 "nnoremap <Tab>   :tabn
 "nnoremap <S-Tab>   :tabp
 nnoremap <Leader>t :tabnew<CR>
-nnoremap <Leader>tt :tabclose<CR>
+"nnoremap <Leader>tt :tabclose<CR>
 nnoremap <Leader>ttt :bdelete<CR>
 
 " ignore wrap

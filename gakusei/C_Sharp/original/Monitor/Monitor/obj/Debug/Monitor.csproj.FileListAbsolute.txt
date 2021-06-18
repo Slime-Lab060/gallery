@@ -1,0 +1,14 @@
+C:\Users\S2A2\source\repos\Monitor\Monitor\bin\Debug\Monitor.exe.config
+C:\Users\S2A2\source\repos\Monitor\Monitor\bin\Debug\Monitor.exe
+C:\Users\S2A2\source\repos\Monitor\Monitor\bin\Debug\Monitor.pdb
+C:\Users\S2A2\source\repos\Monitor\Monitor\bin\Debug\CircularProgressBar.dll
+C:\Users\S2A2\source\repos\Monitor\Monitor\bin\Debug\WinFormAnimation.dll
+C:\Users\S2A2\source\repos\Monitor\Monitor\bin\Debug\CircularProgressBar.xml
+C:\Users\S2A2\source\repos\Monitor\Monitor\obj\Debug\Monitor.csprojAssemblyReference.cache
+C:\Users\S2A2\source\repos\Monitor\Monitor\obj\Debug\Monitor.Form1.resources
+C:\Users\S2A2\source\repos\Monitor\Monitor\obj\Debug\Monitor.Properties.Resources.resources
+C:\Users\S2A2\source\repos\Monitor\Monitor\obj\Debug\Monitor.csproj.GenerateResource.cache
+C:\Users\S2A2\source\repos\Monitor\Monitor\obj\Debug\Monitor.csproj.CoreCompileInputs.cache
+C:\Users\S2A2\source\repos\Monitor\Monitor\obj\Debug\Monitor.csproj.CopyComplete
+C:\Users\S2A2\source\repos\Monitor\Monitor\obj\Debug\Monitor.exe
+C:\Users\S2A2\source\repos\Monitor\Monitor\obj\Debug\Monitor.pdb

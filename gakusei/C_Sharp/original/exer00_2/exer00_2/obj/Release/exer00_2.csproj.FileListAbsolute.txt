@@ -1,0 +1,7 @@
+C:\Users\S2A2\source\repos\exer00_2\exer00_2\obj\Release\exer00_2.csproj.CoreCompileInputs.cache
+C:\Users\S2A2\source\repos\exer00_2\exer00_2\bin\Release\カレンダー.exe.config
+C:\Users\S2A2\source\repos\exer00_2\exer00_2\bin\Release\カレンダー.exe
+C:\Users\S2A2\source\repos\exer00_2\exer00_2\bin\Release\カレンダー.pdb
+C:\Users\S2A2\source\repos\exer00_2\exer00_2\obj\Release\exer00_2.csprojAssemblyReference.cache
+C:\Users\S2A2\source\repos\exer00_2\exer00_2\obj\Release\カレンダー.exe
+C:\Users\S2A2\source\repos\exer00_2\exer00_2\obj\Release\カレンダー.pdb

@@ -1,0 +1,10 @@
+C:\Users\S2A2\source\repos\Test\Test\obj\Debug\Test.Form1.resources
+C:\Users\S2A2\source\repos\Test\Test\obj\Debug\exer00.csproj.GenerateResource.cache
+C:\Users\S2A2\source\repos\Test\Test\obj\Debug\exer00.csproj.CoreCompileInputs.cache
+C:\Users\S2A2\source\repos\Test\Test\obj\Debug\exer00.csprojAssemblyReference.cache
+C:\Users\S2A2\source\repos\Test\Test\bin\Debug\日付取得.exe.config
+C:\Users\S2A2\source\repos\Test\Test\bin\Debug\日付取得.exe
+C:\Users\S2A2\source\repos\Test\Test\bin\Debug\日付取得.pdb
+C:\Users\S2A2\source\repos\Test\Test\obj\Debug\日付取得.exe
+C:\Users\S2A2\source\repos\Test\Test\obj\Debug\日付取得.pdb
+C:\Users\S2A2\source\repos\Test\Test\obj\Debug\日付取得.Properties.Resources.resources

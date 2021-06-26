@@ -1,0 +1,9 @@
+C:\Users\S2A2\source\repos\Rensyu10\Rensyu10\bin\Debug\Rensyu10.exe.config
+C:\Users\S2A2\source\repos\Rensyu10\Rensyu10\bin\Debug\Rensyu10.exe
+C:\Users\S2A2\source\repos\Rensyu10\Rensyu10\bin\Debug\Rensyu10.pdb
+C:\Users\S2A2\source\repos\Rensyu10\Rensyu10\obj\Debug\Rensyu10.Form1.resources
+C:\Users\S2A2\source\repos\Rensyu10\Rensyu10\obj\Debug\Rensyu10.Properties.Resources.resources
+C:\Users\S2A2\source\repos\Rensyu10\Rensyu10\obj\Debug\Rensyu10.csproj.GenerateResource.cache
+C:\Users\S2A2\source\repos\Rensyu10\Rensyu10\obj\Debug\Rensyu10.csproj.CoreCompileInputs.cache
+C:\Users\S2A2\source\repos\Rensyu10\Rensyu10\obj\Debug\Rensyu10.exe
+C:\Users\S2A2\source\repos\Rensyu10\Rensyu10\obj\Debug\Rensyu10.pdb

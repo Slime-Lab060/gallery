@@ -1,0 +1,10 @@
+C:\Users\S2A2\source\repos\Rensyu11\Rensyu11\bin\Debug\Rensyu11.exe.config
+C:\Users\S2A2\source\repos\Rensyu11\Rensyu11\bin\Debug\Rensyu11.exe
+C:\Users\S2A2\source\repos\Rensyu11\Rensyu11\bin\Debug\Rensyu11.pdb
+C:\Users\S2A2\source\repos\Rensyu11\Rensyu11\obj\Debug\Rensyu11.csprojAssemblyReference.cache
+C:\Users\S2A2\source\repos\Rensyu11\Rensyu11\obj\Debug\Rensyu11.Form1.resources
+C:\Users\S2A2\source\repos\Rensyu11\Rensyu11\obj\Debug\Rensyu11.Properties.Resources.resources
+C:\Users\S2A2\source\repos\Rensyu11\Rensyu11\obj\Debug\Rensyu11.csproj.GenerateResource.cache
+C:\Users\S2A2\source\repos\Rensyu11\Rensyu11\obj\Debug\Rensyu11.csproj.CoreCompileInputs.cache
+C:\Users\S2A2\source\repos\Rensyu11\Rensyu11\obj\Debug\Rensyu11.exe
+C:\Users\S2A2\source\repos\Rensyu11\Rensyu11\obj\Debug\Rensyu11.pdb

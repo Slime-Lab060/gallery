@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Sawarabi+Gothic&display=swap');
+
+:root { 
+	--bgcolor: #1da1f2; 
+	--primary-c: #2196F3; 
+	--bgscolor:#006dbe;
+	--formcolor: #999; 
+	--white: #FDFBFB; 
+	--text: #082943; 
+	--maintext: #202020;
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	color: var(--bgscolor);
+	font-size: 0.9rem;
+	font-weight: 700;
+	transition: .3s;
+}
+
+a::after {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  content: '';
+  width: 0;
+  height: 2px;
+  background-color: #31aae2;
+  transition: .3s;
+  transform: translateX(-50%);
+}
+
+body {
+	font-family: 'Noto Sans JP', 'Poppins', sans-serif;
+	background: var(--bgcolor);
+	    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+table {
+	display: block;
+	overflow-y: scroll;
+	white-space: pre-line; -webkit-overflow-scrolling : touch;
+	height: 430px;
+	-webkit-overflow-scrolling: touch;
+}
+
+table tbody {
+	width: 50%;
+}
+
+.footerlogo {
+	top: 52vh;
+	left: 50%;
+	color: #fefefe;
+	transform: translate(-50%, 1200%);
+	position: absolute; /*←相対位置*/
+	box-sizing: border-box; /*←全て含めてmin-height:100vhに*/
+}
+
+/*親テーブル*/
+.comparison-table-wrap {
+  display: grid;
+  place-items: center;
+	width: 100%;
+	max-width: 980px;
+    min-height: 100vh;
+}
+
+.comparison-table-title {
+	background: linear-gradient(90deg, var(--bgcolor) 0%, var(--bgscolor) 100%);
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+	padding: 1em;
+	letter-spacing: 1px;
+	margin: 0;
+	font-size: 14px;
+	box-shadow: 0 2px 5px rgba(100, 100, 100, 0.1);
+}
+
+/*子テーブル*/
+.comparison-table {
+	background: #f8f9fb;
+		width:100%;
+	margin: auto;
+	border-radius: 20px;
+	box-shadow: 0 19px 38px rgba(20, 20, 20, 0.13);
+	padding: 1em 1em;
+}
+
+.comparison-table  h1{
+	text-align:center;
+	color: var(--maintext);
+}
+
+.comparison-table table {
+	border-collapse: separate;
+	border-spacing: 5px 10px;
+	border: none;
+	margin-bottom: 0;
+}
+
+.comparison-table table th, .comparison-table table td {
+	width: 10%;
+}
+
+.comparison-table table thead th {
+	background: #d1d1d1;
+	border: none;
+	color: #fff;
+	box-shadow: 0 2px 5px rgba(100, 100, 100, 0.1);
+	padding: 0.8em 0.5em;
+	line-height: 1.5;
+	border-radius: 3px;
+	font-size: 14px;
+}
+
+.comparison-table table tbody th {
+	background: linear-gradient(90deg, var(--bgcolor) 0%, var(--bgscolor) 100%);
+	text-align: center;
+	color: #fff;
+	border: none;
+	border-radius: 20px;
+	box-shadow: 0 2px 5px rgba(20, 20, 20, 0.2);
+	padding: 0.4em 1em;
+	font-size: 14px;
+	line-height: 1.3;
+}
+
+.comparison-table table tbody td {
+	background: #fff;
+	box-shadow: 0 2px 5px rgba(100, 100, 100, 0.1);
+	border-radius: 3px;
+	border: none;
+	padding: 1.2em;
+	color: #555;
+	line-height: 1.8;
+	text-align: justify;
+	vertical-align: top;
+}
+
+.comparison-table table tbody td p {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 1em;
+	font-size: 14px;
+}
+
+.comparison-table table tbody td .td-h {
+	text-align: center;
+	font-weight: bold;
+	color: #33ccff;
+	font-size: 16px;
+	margin-bottom: 7px;
+}
+
+.btn{
+    font-family: 'Noto Sans JP', 'Poppins', sans-serif;
+    background-image: linear-gradient(to right, var(--bgcolor), #006dbe, var(--bgcolor));
+    background-size: 200%;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(20, 20, 20, 0.2);
+    padding: 0.4em 1em;
+    margin: 1rem 0;
+    font-size: 14px;
+    line-height: 1.3;
+    cursor: pointer;
+    transition: .3s;
+}
+
+/*Chrome*/
+::-webkit-scrollbar { /*縦方向スクロールバーの幅*/
+	width: 10px;
+	background: #eee;
+}
+
+::-webkit-scrollbar:horizontal { /*横方向スクロールバーの高さ*/
+	height: 10px;
+}
+
+::-webkit-scrollbar-track { /*スクロールバーの軌道*/
+	background: rgb(230, 230, 230);
+}
+
+::-webkit-scrollbar-thumb { /*つまみの部分*/
+	border-radius: 10px;
+	background: var(--white);
+	background: var(--bgscolor);
+}
+
+::-webkit-scrollbar-thumb:hover { /*マウスホバー時*/
+	background: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 768px) {
+	.comparison-table {
+		padding: 7px;
+	}
+	.comparison-table table {
+		border-spacing: 3px 10px;
+	}
+	.comparison-table table thead th {
+		position: -webkit-sticky;
+		position: sticky;
+		top: 0px;
+		z-index: 100;
+	}
+	.no-sticky .comparison-table table thead th {
+		position: static;
+	}
+}

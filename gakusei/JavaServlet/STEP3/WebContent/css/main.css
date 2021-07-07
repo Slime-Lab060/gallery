@@ -1,0 +1,306 @@
+@charset "UTF-8";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Sawarabi+Gothic&display=swap')
+	;
+
+:root{
+--bgcolor: #1da1f2;
+--primary-c: #2196F3;
+--formcolor: #999;
+--white: #FDFBFB;
+--text: #082943;
+--maintext:#202020;
+}
+
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.wave {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 100%;
+	z-index: -1;
+}
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Noto Sans JP', 'Poppins', sans-serif;
+	background: var(--bgcolor);
+}
+
+.footerlogo {
+	top: 42%;
+	left: 50%;
+	color: #fefefe;
+	transform: translate(-50%, 1200%);
+	position: absolute; /*←相対位置*/
+	box-sizing: border-box; /*←全て含めてmin-height:100vhに*/
+}
+
+.boxr {
+  display: grid;
+  place-items: center;
+	width: 100%;
+	max-width: 980px;
+    min-height: 100vh;
+}
+
+.radio {
+	position: relative;
+	margin: 10px;
+	cursor: pointer;
+	font-size: 20px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.checkmark:hover{
+	cursor: pointer;
+	color: #006dbe;
+  }
+
+.wrapper {
+	top: 50%;
+	left: 50%;
+	color: #fefefe;
+	transform: translate(-50%, 1200%);
+	position: absolute; /*←相対位置*/
+	box-sizing: border-box; /*←全て含めてmin-height:100vhに*/
+}
+
+.box {
+	width: 400px;
+	padding: 40px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: var(--white);
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.13);
+	border-radius: 20px;
+	text-align: center;
+}
+
+.box h1 {
+	color: var(--maintext);
+	margin: 20px;
+}
+
+.container {
+	width: 100vw;
+	height: 100vh;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 7rem;
+	padding: 0 2rem;
+}
+
+.img {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.login-content {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+}
+
+.img img {
+	width: 500px;
+}
+
+form {
+	width: 360px;
+}
+
+.login-content img {
+	height: 100px;
+}
+
+.login-content h2 {
+	margin: 15px 0;
+	color: #333;
+	text-transform: uppercase;
+	font-size: 2.7rem;
+}
+
+.login-content .input-div {
+	position: relative;
+	display: grid;
+	grid-template-columns: 7% 93%;
+	margin: 25px 0;
+	padding: 5px 0;
+	border-bottom: 2px solid #d9d9d9;
+}
+
+.login-content .input-div.one {
+	margin-top: 0;
+}
+
+.login-content {
+	justify-content: center;
+}
+
+.i {
+	color: #d9d9d9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.i i {
+	transition: .3s;
+}
+
+.input-div>div {
+	position: relative;
+	height: 45px;
+}
+
+.input-div>div>h5 {
+	position: absolute;
+	left: 10px;
+	top: 50%;
+	transform: translateY(-50%);
+	color: var(--formcolor);
+	font-size: 18px;
+	transition: .3s;
+}
+
+.input-div:before, .input-div:after {
+	content: '';
+	position: absolute;
+	bottom: -2px;
+	width: 0%;
+	height: 2px;
+	background-color: var(--bgcolor);
+	transition: .4s;
+}
+
+.input-div:before {
+	right: 50%;
+}
+
+.input-div:after {
+	left: 50%;
+}
+
+.input-div.focus:before, .input-div.focus:after {
+	width: 50%;
+}
+
+.input-div.focus>div>h5 {
+	top: -5px;
+	font-size: 15px;
+}
+
+.input-div.focus>.i>i {
+	color: var(--bgcolor);
+}
+
+.input-div>div>input {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border: none;
+	outline: none;
+	background: none;
+	padding: 0.5rem 0.7rem;
+	font-size: 1.2rem;
+	color: #555;
+	font-family: 'Noto Sans JP', 'poppins', sans-serif;
+}
+
+.input-div.pass {
+	margin-bottom: 4px;
+}
+
+a {
+	padding: 5px;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	color: var(--formcolor);
+	font-size: 0.9rem;
+	transition: .3s;
+}
+
+a:hover {
+	color: var(--bgcolor);
+}
+
+.btn {
+	display: block;
+	width: 100%;
+	height: 50px;
+	border-radius: 25px;
+	outline: none;
+	border: none;
+	background-image: linear-gradient(to right, var(--bgcolor), #006dbe, var(--bgcolor));
+	background-size: 200%;
+	font-size: 1.2rem;
+	color: var(--white);
+	font-family: 'Noto Sans JP', 'Poppins', sans-serif;
+	font-size: large;
+	text-transform: uppercase;
+	margin: 1rem 0;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.btn:hover {
+	background-position: right;
+}
+
+@media screen and (max-width: 1050px) {
+	
+	.container {
+		grid-gap: 5rem;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	
+
+	
+	form {
+		width: 290px;
+	}
+	.login-content h2 {
+		font-size: 2.4rem;
+		margin: 8px 0;
+	}
+	.img img {
+		width: 400px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.container {
+		grid-template-columns: 1fr;
+	}
+	.img {
+		display: none;
+	}
+	.wave {
+		display: none;
+	}
+	.login-content {
+		justify-content: center;
+	}
+}

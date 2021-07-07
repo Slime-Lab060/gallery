@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>つぶやきアプリ</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script type="text/javascript" src="js/fontkit.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+		.in {
+			width: 100%;
+			text-align: left;
+			font-size: 20px;
+			border-radius: 4px;
+			border: solid 2px #d3d5da;
+			color: #202020;
+			font-family: 'Noto Sans JP', 'Poppins', sans-serif;
+		}
+
+		.in:focus {
+			border-color: var(--primary-c);
+			outline: 0;
+		}
+
+		textarea {
+			width: 100%;
+			height: 95px;
+			font-size: 20px;
+			border-radius: 4px;
+			border: solid 2px #d3d5da;
+			color: #202020;
+			font-family: 'Noto Sans JP', 'Poppins', sans-serif;
+			resize: none;
+		}
+
+		textarea:focus {
+			border-color: var(--primary-c);
+			outline: 0;
+		}
+	</style>
+</head>
+
+<body>
+<div class="boxr">
+	<form action="TweetListServlet" method="post" class="box" oninput="result.value = tweet.value.length;">
+		<h1>つぶやきアプリ</h1>
+		<label>名前:
+			<input class="in" type="text" name="name" maxlength="8" spellcheck="false" required autofocus><br>
+		</label>
+		<label>つぶやき:
+			<textarea rows="5" cols="20" name="tweet" maxlength="140" placeholder="いまどうしている？" required></textarea>
+		</label>
+		<div style="text-align: right; color: #202020; ">
+			<output name="result">0</output>/140文字
+		</div>
+		<input type="submit" value="送信" class="btn">
+
+		<!-- <input type="reset" value="リセット">
+
+		<input type="button" onclick="history.back()" value="戻る">]
+		-->
+
+	</form>
+		<div class="wrapper">
+			<i class="fa fa-copyright" aria-hidden="true">2020 Slime Lab</i>
+		</div>
+	</div>
+</body>
+
+</html>

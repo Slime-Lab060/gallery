@@ -1,0 +1,10 @@
+C:\Users\S2A2\source\repos\Rensyu13\Rensyu13\bin\Debug\Rensyu13.exe.config
+C:\Users\S2A2\source\repos\Rensyu13\Rensyu13\bin\Debug\Rensyu13.exe
+C:\Users\S2A2\source\repos\Rensyu13\Rensyu13\bin\Debug\Rensyu13.pdb
+C:\Users\S2A2\source\repos\Rensyu13\Rensyu13\obj\Debug\Rensyu13.csprojAssemblyReference.cache
+C:\Users\S2A2\source\repos\Rensyu13\Rensyu13\obj\Debug\Rensyu13.Form1.resources
+C:\Users\S2A2\source\repos\Rensyu13\Rensyu13\obj\Debug\Rensyu13.Properties.Resources.resources
+C:\Users\S2A2\source\repos\Rensyu13\Rensyu13\obj\Debug\Rensyu13.csproj.GenerateResource.cache
+C:\Users\S2A2\source\repos\Rensyu13\Rensyu13\obj\Debug\Rensyu13.csproj.CoreCompileInputs.cache
+C:\Users\S2A2\source\repos\Rensyu13\Rensyu13\obj\Debug\Rensyu13.exe
+C:\Users\S2A2\source\repos\Rensyu13\Rensyu13\obj\Debug\Rensyu13.pdb

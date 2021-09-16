@@ -8,9 +8,9 @@ if [[ $yn = [yY] ]]; then
   yes | sudo apt upgrade
   yes | sudo apt install vim python3 python3-pip cmdtest nodejs git neofetch default-jdk
   yes | sudo pip3 install pynvim
-  curl -fLo ~/.vimrc https://raw.githubusercontent.com/Slime-Lab060/Gakusei_Management/master/other/.vimrc
-  curl -fLo ~/update.sh https://raw.githubusercontent.com/Slime-Lab060/Gakusei_Management/master/other/update.sh
-  curl -fLo ~/uninstall.sh  https://raw.githubusercontent.com/Slime-Lab060/Gakusei_Management/master/other/uninstall.sh
+  curl -fLo ~/.vimrc https://raw.githubusercontent.com/Slime-Lab060/Gakusei_Management/master/vim/.vimrc
+  curl -fLo ~/update.sh https://raw.githubusercontent.com/Slime-Lab060/Gakusei_Management/master/vim/update.sh
+  curl -fLo ~/uninstall.sh  https://raw.githubusercontent.com/Slime-Lab060/Gakusei_Management/master/vim/uninstall.sh
   vim
 
 else

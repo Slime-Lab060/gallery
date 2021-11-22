@@ -16,14 +16,19 @@ if [[ -n $proxy ]] && [[ $proxy =~ ^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+\:[0-9]+$ ]]; 
 			yes | sudo sh -c "echo 'export HTTPS_PROXY=$proxys' >> /etc/profile.d/proxy.sh"
 			yes | sudo sh -c "echo 'export FTP_PROXY=$proxys' >> /etc/profile.d/proxy.sh"
 			yes | sudo sh -c "echo 'export no_proxy=\"localhost,127.0.0.1\"' >> /etc/profile.d/proxy.sh"
+
+			#現状システムファイル上書きする上で一から作成することはできないので一番下に上書きして追加する形にしています
 			read -n1 -p "sudoにプロキシを適応しますか?(この操作は初回だけ実行してください！)(y/N)" yn
 			if [[ $yn = [yY] ]]; then
 			     yes | sudo sh -c "echo 'Defaults env_keep=\"http_proxy\"' >> /etc/sudoers"
 			     yes | sudo sh -c "echo 'Defaults env_keep+=\"https_proxy\"' >> /etc/sudoers"
 			    printf "\n設定が完了しました。\n設定を反映するには一度ログアウトしてください。\n"
+
 			else
+
 				printf "sudoの設定はキャンセルしました。"
 				printf "\n設定が完了しました。\n設定を反映するには一度ログアウトしてください。\n"
+
 			fi
 
 	    else

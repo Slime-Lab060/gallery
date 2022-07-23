@@ -9,4 +9,4 @@ linux関係もここに入っていますが今後別の場所に移行する予
  
 # ライセンス
 BSL-1.0 License  
-&#169;2020, Slime Lab
+&#169;2020, Slime Lab 

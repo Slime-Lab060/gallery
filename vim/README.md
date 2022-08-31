@@ -8,6 +8,6 @@ Java IDEをLinux内で行えるVimScriptです。
 イメージは下の画像です。  
 追記:フォルダ名が適当だったので修正しました。  
 
-![2021-0208](https://github.com/Slime-Lab060/Gakusei_Management/blob/master/vim/2021_0208.jpg)
+![2021-0208](https://github.com/Slime-Lab060/Gakusei_Management/blob/main/vim/2021_0208.jpg)
 
 ##### 最終更新日:2021年7月7日
